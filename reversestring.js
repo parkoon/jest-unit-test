@@ -1,3 +1,3 @@
-const reversString = (str) => str.split('').reverse().join('')
+const reversString = (str) => str.toLowerCase().split('').reverse().join('')
 
 module.exports = reversString
